@@ -6,11 +6,16 @@
 //  Copyright © 2020  Dmitry Tammeoya. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "TDHuman.h"
+#import "TDRunners.h"
+#import "TDSwimmers.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TDStudent : NSObject
+@interface TDStudent : TDHuman <TDRunners, TDSwimmers>
+
+@property (assign, nonatomic) NSInteger styles;
+@property (assign, nonatomic) NSInteger maxSpeed;
 
 @end
 

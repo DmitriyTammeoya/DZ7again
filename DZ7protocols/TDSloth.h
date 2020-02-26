@@ -6,11 +6,11 @@
 //  Copyright © 2020  Dmitry Tammeoya. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "TDAnimals.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TDSloth : NSObject
+@interface TDSloth : TDAnimals
 
 @end
 

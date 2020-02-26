@@ -10,7 +10,17 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TDRunners : NSObject
+@protocol TDRunners <NSObject>
+
+@required
+
+@property (strong, nonatomic) NSString* name;
+@property (assign, nonatomic) NSInteger maxSpeed;
+- (void) run;
+
+@optional
+
+- (BOOL) runMarathon;
 
 @end
 

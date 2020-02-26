@@ -6,11 +6,14 @@
 //  Copyright © 2020  Dmitry Tammeoya. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "TDHuman.h"
+#import "TDRunners.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TDRunner : NSObject
+@interface TDRunner : TDHuman <TDRunners>
+
+@property (assign, nonatomic) NSInteger maxSpeed;
 
 @end
 

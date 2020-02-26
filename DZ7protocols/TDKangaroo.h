@@ -6,11 +6,14 @@
 //  Copyright © 2020  Dmitry Tammeoya. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "TDAnimals.h"
+#import "TDJumpers.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TDKangaroo : NSObject
+@interface TDKangaroo : TDAnimals <TDJumpers>
+
+@property (assign, nonatomic) NSInteger maxHeight;
 
 @end
 

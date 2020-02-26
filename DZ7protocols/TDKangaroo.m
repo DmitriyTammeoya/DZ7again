@@ -10,4 +10,13 @@
 
 @implementation TDKangaroo
 
+-(void) jump {
+    NSLog(@"Kangaroo %@ jumps like a god", self.name);
+}
+
+-(void) playSports {
+    NSLog(@"Basketball for kangaroos");
+}
+
+
 @end

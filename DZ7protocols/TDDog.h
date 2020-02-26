@@ -6,11 +6,16 @@
 //  Copyright © 2020  Dmitry Tammeoya. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "TDAnimals.h"
+#import "TDSwimmers.h"
+#import "TDRunners.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TDDog : NSObject
+@interface TDDog : TDAnimals <TDRunners, TDSwimmers>
+
+@property (assign, nonatomic) NSInteger maxSpeed;
+@property (assign, nonatomic) NSInteger styles;
 
 @end
 

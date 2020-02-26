@@ -8,6 +8,15 @@
 
 #import "TDRunners.h"
 
-@implementation TDRunners
+@protocol TDRunners <NSObject>
+
+@required
+
+@property (strong, nonatomic) NSString* name;
+@property (assign, nonatomic) CGFloat* maxHeight;
+- (void) jump;
+
+@optional
+- (NSString*) playSports;
 
 @end

@@ -10,4 +10,16 @@
 
 @implementation TDStudent
 
+#pragma mark - TDRunners
+
+-(void) run {
+    NSLog(@"Student %@ starts running", self.name);
+}
+
+#pragma mark - TDSwimmers
+
+-(void) swim {
+    NSLog(@"Student %@ is drowning", self.name);
+}
+
 @end

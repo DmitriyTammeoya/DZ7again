@@ -10,4 +10,15 @@
 
 @implementation TDDog
 
+#pragma mark - TDRunners
+
+-(void) run {
+    NSLog(@"Dog %@ starts running", self.name);
+}
+#pragma mark - TDSwimmers
+
+-(void) swim {
+    NSLog(@"Dog %@ is fetching a ball", self.name);
+}
+
 @end

@@ -10,7 +10,17 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TDJumpers : NSObject
+@protocol TDJumpers <NSObject>
+
+@required
+
+@property (strong, nonatomic) NSString* name;
+@property (assign, nonatomic) NSInteger maxHeight;
+- (void) jump;
+
+@optional
+- (void) playSports;
+
 
 @end
 

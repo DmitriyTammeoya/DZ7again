@@ -14,8 +14,16 @@
 		A8C2114B240308EA0063BA0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C2114A240308EA0063BA0E /* Assets.xcassets */; };
 		A8C2114E240308EA0063BA0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8C2114C240308EA0063BA0E /* LaunchScreen.storyboard */; };
 		A8C21151240308EA0063BA0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C21150240308EA0063BA0E /* main.m */; };
-		A8C2115B240308EA0063BA0E /* DZ7protocolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C2115A240308EA0063BA0E /* DZ7protocolsTests.m */; };
 		A8C21166240308EA0063BA0E /* DZ7protocolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C21165240308EA0063BA0E /* DZ7protocolsUITests.m */; };
+		A8C21184240311780063BA0E /* TDAnimals.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C21183240311780063BA0E /* TDAnimals.m */; };
+		A8C211872403128C0063BA0E /* TDDog.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C211862403128C0063BA0E /* TDDog.m */; };
+		A8C2118A240312EA0063BA0E /* TDHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C21189240312EA0063BA0E /* TDHuman.m */; };
+		A8C2118D240314630063BA0E /* TDRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C2118C240314630063BA0E /* TDRunner.m */; };
+		A8C21190240314930063BA0E /* TDStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C2118F240314930063BA0E /* TDStudent.m */; };
+		A8C21193240315D80063BA0E /* TDSportsman.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C21192240315D80063BA0E /* TDSportsman.m */; };
+		A8C21196240319250063BA0E /* TDSloth.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C21195240319250063BA0E /* TDSloth.m */; };
+		A8C2119924031E9A0063BA0E /* TDKangaroo.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C2119824031E9A0063BA0E /* TDKangaroo.m */; };
+		A8C2119C240322150063BA0E /* TDTurtle.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C2119B240322150063BA0E /* TDTurtle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,11 +57,30 @@
 		A8C2114F240308EA0063BA0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8C21150240308EA0063BA0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A8C21156240308EA0063BA0E /* DZ7protocolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZ7protocolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8C2115A240308EA0063BA0E /* DZ7protocolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZ7protocolsTests.m; sourceTree = "<group>"; };
-		A8C2115C240308EA0063BA0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8C21161240308EA0063BA0E /* DZ7protocolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZ7protocolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C21165240308EA0063BA0E /* DZ7protocolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZ7protocolsUITests.m; sourceTree = "<group>"; };
 		A8C21167240308EA0063BA0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8C2117624030B650063BA0E /* TDJumpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDJumpers.h; sourceTree = "<group>"; };
+		A8C2117924030D720063BA0E /* TDSwimmers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDSwimmers.h; sourceTree = "<group>"; };
+		A8C2117C24030F1E0063BA0E /* TDRunners.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDRunners.h; sourceTree = "<group>"; };
+		A8C21182240311780063BA0E /* TDAnimals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDAnimals.h; sourceTree = "<group>"; };
+		A8C21183240311780063BA0E /* TDAnimals.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDAnimals.m; sourceTree = "<group>"; };
+		A8C211852403128C0063BA0E /* TDDog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDDog.h; sourceTree = "<group>"; };
+		A8C211862403128C0063BA0E /* TDDog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDDog.m; sourceTree = "<group>"; };
+		A8C21188240312EA0063BA0E /* TDHuman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDHuman.h; sourceTree = "<group>"; };
+		A8C21189240312EA0063BA0E /* TDHuman.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDHuman.m; sourceTree = "<group>"; };
+		A8C2118B240314630063BA0E /* TDRunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDRunner.h; sourceTree = "<group>"; };
+		A8C2118C240314630063BA0E /* TDRunner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDRunner.m; sourceTree = "<group>"; };
+		A8C2118E240314930063BA0E /* TDStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDStudent.h; sourceTree = "<group>"; };
+		A8C2118F240314930063BA0E /* TDStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDStudent.m; sourceTree = "<group>"; };
+		A8C21191240315D80063BA0E /* TDSportsman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDSportsman.h; sourceTree = "<group>"; };
+		A8C21192240315D80063BA0E /* TDSportsman.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDSportsman.m; sourceTree = "<group>"; };
+		A8C21194240319250063BA0E /* TDSloth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDSloth.h; sourceTree = "<group>"; };
+		A8C21195240319250063BA0E /* TDSloth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDSloth.m; sourceTree = "<group>"; };
+		A8C2119724031E9A0063BA0E /* TDKangaroo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDKangaroo.h; sourceTree = "<group>"; };
+		A8C2119824031E9A0063BA0E /* TDKangaroo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDKangaroo.m; sourceTree = "<group>"; };
+		A8C2119A240322150063BA0E /* TDTurtle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDTurtle.h; sourceTree = "<group>"; };
+		A8C2119B240322150063BA0E /* TDTurtle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDTurtle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +112,6 @@
 			isa = PBXGroup;
 			children = (
 				A8C2113D240308E80063BA0E /* DZ7protocols */,
-				A8C21159240308EA0063BA0E /* DZ7protocolsTests */,
 				A8C21164240308EA0063BA0E /* DZ7protocolsUITests */,
 				A8C2113C240308E80063BA0E /* Products */,
 			);
@@ -115,17 +141,29 @@
 				A8C2114C240308EA0063BA0E /* LaunchScreen.storyboard */,
 				A8C2114F240308EA0063BA0E /* Info.plist */,
 				A8C21150240308EA0063BA0E /* main.m */,
+				A8C2117624030B650063BA0E /* TDJumpers.h */,
+				A8C2117924030D720063BA0E /* TDSwimmers.h */,
+				A8C2117C24030F1E0063BA0E /* TDRunners.h */,
+				A8C21182240311780063BA0E /* TDAnimals.h */,
+				A8C21183240311780063BA0E /* TDAnimals.m */,
+				A8C21188240312EA0063BA0E /* TDHuman.h */,
+				A8C21189240312EA0063BA0E /* TDHuman.m */,
+				A8C211852403128C0063BA0E /* TDDog.h */,
+				A8C211862403128C0063BA0E /* TDDog.m */,
+				A8C2118B240314630063BA0E /* TDRunner.h */,
+				A8C2118C240314630063BA0E /* TDRunner.m */,
+				A8C2118E240314930063BA0E /* TDStudent.h */,
+				A8C2118F240314930063BA0E /* TDStudent.m */,
+				A8C21191240315D80063BA0E /* TDSportsman.h */,
+				A8C21192240315D80063BA0E /* TDSportsman.m */,
+				A8C21194240319250063BA0E /* TDSloth.h */,
+				A8C21195240319250063BA0E /* TDSloth.m */,
+				A8C2119724031E9A0063BA0E /* TDKangaroo.h */,
+				A8C2119824031E9A0063BA0E /* TDKangaroo.m */,
+				A8C2119A240322150063BA0E /* TDTurtle.h */,
+				A8C2119B240322150063BA0E /* TDTurtle.m */,
 			);
 			path = DZ7protocols;
-			sourceTree = "<group>";
-		};
-		A8C21159240308EA0063BA0E /* DZ7protocolsTests */ = {
-			isa = PBXGroup;
-			children = (
-				A8C2115A240308EA0063BA0E /* DZ7protocolsTests.m */,
-				A8C2115C240308EA0063BA0E /* Info.plist */,
-			);
-			path = DZ7protocolsTests;
 			sourceTree = "<group>";
 		};
 		A8C21164240308EA0063BA0E /* DZ7protocolsUITests */ = {
@@ -267,10 +305,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8C211872403128C0063BA0E /* TDDog.m in Sources */,
+				A8C2119924031E9A0063BA0E /* TDKangaroo.m in Sources */,
 				A8C21146240308E80063BA0E /* ViewController.m in Sources */,
 				A8C21140240308E80063BA0E /* AppDelegate.m in Sources */,
 				A8C21151240308EA0063BA0E /* main.m in Sources */,
+				A8C21190240314930063BA0E /* TDStudent.m in Sources */,
+				A8C2118A240312EA0063BA0E /* TDHuman.m in Sources */,
+				A8C2118D240314630063BA0E /* TDRunner.m in Sources */,
 				A8C21143240308E80063BA0E /* SceneDelegate.m in Sources */,
+				A8C21193240315D80063BA0E /* TDSportsman.m in Sources */,
+				A8C21196240319250063BA0E /* TDSloth.m in Sources */,
+				A8C2119C240322150063BA0E /* TDTurtle.m in Sources */,
+				A8C21184240311780063BA0E /* TDAnimals.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +325,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8C2115B240308EA0063BA0E /* DZ7protocolsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

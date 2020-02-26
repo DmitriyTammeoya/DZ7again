@@ -10,7 +10,17 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TDSwimmers : NSObject
+@protocol TDSwimmers <NSObject>
+
+@required
+
+@property (strong, nonatomic) NSString* name;
+@property (assign, nonatomic) NSInteger styles;
+- (void) swim;
+
+@optional
+- (NSString*) whereDoYouSwim;
+
 
 @end
 

@@ -12,6 +12,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TDHuman : NSObject
 
+typedef enum {
+    TDGenderMale,
+    TDGenderFemale
+} TDGender;
+
+@property (strong, nonatomic) NSString* name;
+@property (assign, nonatomic) TDGender gender;
+
 @end
 
 NS_ASSUME_NONNULL_END

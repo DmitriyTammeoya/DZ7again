@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TDAnimals : NSObject
 
+@property (strong, nonatomic) NSString* name;
+@property (assign, nonatomic) NSInteger age;
+
 @end
 
 NS_ASSUME_NONNULL_END

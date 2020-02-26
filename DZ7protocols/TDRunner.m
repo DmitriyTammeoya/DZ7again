@@ -10,4 +10,8 @@
 
 @implementation TDRunner
 
+-(void) run {
+    NSLog(@"Runner %@ starts running", self.name);
+}
+
 @end
