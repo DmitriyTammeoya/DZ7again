@@ -13,7 +13,7 @@
 #import "TDStudent.h"
 #import "TDSportsman.h"
 #import "TDSloth.h"
-#import "TDAnimals.h"
+#import "TDAnimal.h"
 #import "TDHuman.h"
 #import "TDJumpers.h"
 #import "TDSwimmers.h"
@@ -34,7 +34,7 @@
     TDRunner* bolt = [[TDRunner alloc] init];
     TDStudent* vasya = [[TDStudent alloc] init];
     TDSportsman* superman = [[TDSportsman alloc] init];
-    TDSloth* blitzSkorostBezGranic = [[TDSloth alloc] init];
+    TDSloth* blitzSpeedWithoutLimits = [[TDSloth alloc] init];
     // TDHuman* human = [[TDHuman alloc] init];
     
     
@@ -43,7 +43,7 @@
     bolt.name = @"bolt";
     vasya.name= @"vasya";
     superman.name = @"superman";
-    blitzSkorostBezGranic.name = @"blitz";
+    blitzSpeedWithoutLimits.name = @"blitz";
     sharik.maxSpeed = 30;
     sharik.styles = 1;
     bolt.maxSpeed = 100;
@@ -54,7 +54,10 @@
     vasya.styles = 0;
     jumpy.maxHeight = 5;
     
-    NSArray* weirdCrowd = [NSArray arrayWithObjects:sharik, jumpy, bolt, vasya, superman, blitzSkorostBezGranic, nil];
+    //NSArray* weirdCrowd = [NSArray arrayWithObjects:sharik, jumpy, bolt, vasya, superman, blitzSkorostBezGranic, nil];
+    
+    NSArray* weirdCrowd = @[sharik, jumpy, bolt, vasya, superman, blitzSpeedWithoutLimits];
+    
     
    /* for (id <TDRunners> runner in weirdCrowd) {
         if ([runner conformsToProtocol:@protocol(TDRunners)]) {

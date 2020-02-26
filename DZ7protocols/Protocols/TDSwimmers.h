@@ -1,8 +1,8 @@
 //
-//  TDJumpers.h
+//  TDSwimmers.h
 //  DZ7protocols
 //
-//  Created by  Dmitry Tammeoya on 23.02.2020.
+//  Created by  Dmitry Tammeoya on 26.02.2020.
 //  Copyright © 2020  Dmitry Tammeoya. All rights reserved.
 //
 
@@ -10,17 +10,16 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol TDJumpers <NSObject>
+@protocol TDSwimmers <NSObject>
 
 @required
 
 @property (strong, nonatomic) NSString* name;
-@property (assign, nonatomic) NSInteger maxHeight;
-- (void) jump;
+@property (assign, nonatomic) NSInteger styles;
+- (void) swim;
 
 @optional
-- (void) playSports;
-
+- (NSString*) whereDoYouSwim;
 
 @end
 

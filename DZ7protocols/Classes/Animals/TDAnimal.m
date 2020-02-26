@@ -6,7 +6,7 @@
 //  Copyright © 2020  Dmitry Tammeoya. All rights reserved.
 //
 
-#import "TDAnimals.h"
+#import "TDAnimal.h"
 
 @implementation TDAnimals
 

@@ -1,8 +1,8 @@
 //
-//  TDRunners.h
+//  TDJumpers.h
 //  DZ7protocols
 //
-//  Created by  Dmitry Tammeoya on 23.02.2020.
+//  Created by  Dmitry Tammeoya on 26.02.2020.
 //  Copyright © 2020  Dmitry Tammeoya. All rights reserved.
 //
 
@@ -10,17 +10,16 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol TDRunners <NSObject>
+@protocol TDJumpers <NSObject>
 
 @required
 
 @property (strong, nonatomic) NSString* name;
-@property (assign, nonatomic) NSInteger maxSpeed;
-- (void) run;
+@property (assign, nonatomic) NSInteger maxHeight;
+- (void) jump;
 
 @optional
-
-- (BOOL) runMarathon;
+- (void) playSports;
 
 @end
 
